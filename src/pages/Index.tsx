@@ -406,7 +406,8 @@ const Index = () => {
                 </div>
                 <div>
                   <p className="font-bold uppercase text-sm">Адрес</p>
-                  <p className="text-muted-foreground">Республика Татарстан, д. Куюки</p>
+                  <p className="text-muted-foreground">Республика Татарстан, д. Куюки, ул.8 квартал, д.2а
+</p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
