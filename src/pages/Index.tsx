@@ -53,7 +53,7 @@ const SOCIALS = [
   { icon: 'Send', label: 'Telegram', handle: '@topsquadschool' },
   { icon: 'Instagram', label: 'Instagram', handle: '@breaking_school_topsquad' },
 
-  { icon: 'VK', label: 'VK', handle: 'vk.com/topsquad' },
+  { icon: 'VK', label: 'VK', handle: 'vk.com/topsquadschool' },
 ];
 
 const Index = () => {
