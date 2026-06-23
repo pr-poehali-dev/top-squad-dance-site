@@ -44,7 +44,7 @@ const SCHEDULE = [
 const COACHES = [
   { name: 'Bboy Дамир', role: 'Главный тренер · 12 лет в брейкинге', emoji: '🔥' },
 
-  { name: 'Bgirl Лия', role: 'Тренер детских групп', emoji: '💫' },
+
 ];
 
 const GALLERY_EMOJI = ['🕺', '💥', '🎧', '🏆', '🤸', '🎵', '🔥', '⚡'];
