@@ -50,7 +50,7 @@ const COACHES = [
 const GALLERY_EMOJI = ['🕺', '💥', '🎧', '🏆', '🤸', '🎵', '🔥', '⚡'];
 
 const SOCIALS = [
-  { icon: 'Send', label: 'Telegram', handle: '@topsquad_kuyuki' },
+  { icon: 'Send', label: 'Telegram', handle: '@topsquadschool' },
   { icon: 'Instagram', label: 'Instagram', handle: '@topsquad.dance' },
   { icon: 'Youtube', label: 'YouTube', handle: 'Top Squad Crew' },
   { icon: 'MessageCircle', label: 'VK', handle: 'vk.com/topsquad' },
