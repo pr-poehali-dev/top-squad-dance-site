@@ -53,7 +53,7 @@ const SOCIALS = [
   { icon: 'Send', label: 'Telegram', handle: '@topsquadschool' },
   { icon: 'Instagram', label: 'Instagram', handle: '@breaking_school_topsquad' },
 
-  { icon: 'MessageCircle', label: 'VK', handle: 'vk.com/topsquad' },
+  { icon: 'VK', label: 'VK', handle: 'vk.com/topsquad' },
 ];
 
 const Index = () => {
@@ -443,11 +443,17 @@ const Index = () => {
                   className="group flex items-center gap-4 bg-card border border-border rounded-xl p-5 hover:border-accent hover:-translate-y-1 transition-all"
                 >
                   <div className="w-11 h-11 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-accent transition-colors">
-                    <Icon
-                      name={s.icon as never}
-                      size={20}
-                      className="group-hover:text-accent-foreground transition-colors"
-                    />
+                    {s.icon === 'VK' ? (
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="group-hover:text-accent-foreground transition-colors">
+                        <path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14C20.67 22 22 20.67 22 15.07V8.93C22 3.33 20.67 2 15.07 2zm3.08 13.51h-1.5c-.57 0-.74-.45-1.76-1.49-.88-.87-1.27-.99-1.49-.99-.3 0-.39.09-.39.51v1.36c0 .36-.12.57-1.1.57-1.62 0-3.41-.98-4.67-2.8C5.85 10.5 5.5 8.84 5.5 8.5c0-.22.09-.43.51-.43h1.5c.38 0 .52.17.67.57.74 2.13 1.98 4 2.49 4s.58-.23.58-1.49V9.44c-.06-1.07-.62-1.16-.62-1.54 0-.18.15-.36.39-.36h2.36c.32 0 .43.17.43.54v2.9c0 .32.14.43.23.43.2 0 .37-.11.74-.49 1.14-1.28 1.96-3.25 1.96-3.25.11-.22.29-.43.67-.43h1.5c.45 0 .55.23.45.54-.19.88-2.03 3.47-2.03 3.47-.16.26-.22.38 0 .67.16.22.68.67 1.03 1.08.64.73 1.13 1.34 1.26 1.76.13.41-.09.62-.5.62z"/>
+                      </svg>
+                    ) : (
+                      <Icon
+                        name={s.icon as never}
+                        size={20}
+                        className="group-hover:text-accent-foreground transition-colors"
+                      />
+                    )}
                   </div>
                   <div>
                     <p className="font-display font-bold uppercase">{s.label}</p>
