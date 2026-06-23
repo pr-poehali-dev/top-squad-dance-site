@@ -52,7 +52,7 @@ const GALLERY_EMOJI = ['🕺', '💥', '🎧', '🏆', '🤸', '🎵', '🔥', '
 const SOCIALS = [
   { icon: 'Send', label: 'Telegram', handle: '@topsquadschool' },
   { icon: 'Instagram', label: 'Instagram', handle: '@breaking_school_topsquad' },
-  { icon: 'Youtube', label: 'YouTube', handle: 'Top Squad Crew' },
+
   { icon: 'MessageCircle', label: 'VK', handle: 'vk.com/topsquad' },
 ];
 
